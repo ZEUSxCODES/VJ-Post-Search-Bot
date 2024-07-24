@@ -1,6 +1,18 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# This code belongs to anmol0700,  
+# a passionate developer dedicated to  
+# creating innovative solutions and tools.  
+
+# For more updates and projects,  
+# please visit: t.me/anmol0700.  
+
+# Your support is greatly appreciated,  
+# and it motivates continuous improvement.  
+
+# Feel free to reach out with feedback,  
+# or to collaborate on exciting ideas.  
+
+# Together, we can build amazing things!  
+# Thank you for being a part of this journey! 
 
 class script(object):
     START = """**ʜᴇʟʟᴏ {} 🤟**
@@ -11,7 +23,7 @@ class script(object):
     HELP = """<b>💢 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ
 
 🔻 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ᴀʟʟ ᴘᴇʀᴍɪssɪᴏɴs. 
-🔻 sᴇɴᴅ /verify ɪɴ ɢʀᴏᴜᴘ & ᴡᴀɪᴛ ғᴏʀ ɪᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴏʀ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ᴀғᴛᴇʀ ʀᴇǫᴜᴇsᴛ @VJBots_bot.
+🔻 sᴇɴᴅ /verify ɪɴ ɢʀᴏᴜᴘ & ᴡᴀɪᴛ ғᴏʀ ɪᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴏʀ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ᴀғᴛᴇʀ ʀᴇǫᴜᴇsᴛ @Anmol0700.
 🔻 ᴀғᴛᴇʀ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ sᴇɴᴅ /connect ʏᴏᴜʀᴄʜᴀɴɴᴇʟɪᴅ. ( ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴄʜᴀɴɴᴇʟs ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴛɪᴍᴇs )
 🔻 ᴇxᴀᴍᴘʟᴇ : /connect -100xxxxxxxxxx
 
@@ -25,10 +37,10 @@ class script(object):
 
 ♨️ ɢᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs ʟɪsᴛ ᴡɪᴛʜ - /connections</b>"""
 
-    ABOUT = """<b>╭━━━━━━━❰ [𝙰𝙱𝙾𝚄𝚃](https://t.me/VJ_Botz) ❱━━━━━━━➣
+    ABOUT = """<b>╭━━━━━━━❰ [𝙰𝙱𝙾𝚄𝚃](https://t.me/Hara_Tg) ❱━━━━━━━➣
 
 ┣ ✯ Mʏ Nᴀᴍᴇ:  {}
-┣ ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/kingvj01'>VJ Bᴏᴛᴢ</a>
+┣ ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Anmol0700'>ᴍɪɢᴜᴇʟ ᴏ’ʜᴀʀᴀ!</a>
 ┣ ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ┣ ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://cloud.mongodb.com/'>MᴏɴɢᴏDB</a></b>"""
 
@@ -44,4 +56,19 @@ Remaining: `{}`
 Success: `{}`
 Failed: `{}`"""
 
+# This code belongs to anmol0700,  
+# a passionate developer dedicated to  
+# creating innovative solutions and tools.  
+
+# For more updates and projects,  
+# please visit: t.me/anmol0700.  
+
+# Your support is greatly appreciated,  
+# and it motivates continuous improvement.  
+
+# Feel free to reach out with feedback,  
+# or to collaborate on exciting ideas.  
+
+# Together, we can build amazing things!  
+# Thank you for being a part of this journey! 
     
