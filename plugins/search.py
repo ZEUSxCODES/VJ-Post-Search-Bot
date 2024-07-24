@@ -1,6 +1,18 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# This code belongs to anmol0700,  
+# a passionate developer dedicated to  
+# creating innovative solutions and tools.  
+
+# For more updates and projects,  
+# please visit: t.me/anmol0700.  
+
+# Your support is greatly appreciated,  
+# and it motivates continuous improvement.  
+
+# Feel free to reach out with feedback,  
+# or to collaborate on exciting ideas.  
+
+# Together, we can build amazing things!  
+# Thank you for being a part of this journey! 
 
 import asyncio
 from info import *
@@ -118,3 +130,19 @@ async def request(bot, update):
     await bot.send_message(chat_id=admin, text=text, disable_web_page_preview=True)
     await update.answer("✅ Request Sent To Admin", show_alert=True)
     await update.message.delete(60)
+
+# This code belongs to anmol0700,  
+# a passionate developer dedicated to  
+# creating innovative solutions and tools.  
+
+# For more updates and projects,  
+# please visit: t.me/anmol0700.  
+
+# Your support is greatly appreciated,  
+# and it motivates continuous improvement.  
+
+# Feel free to reach out with feedback,  
+# or to collaborate on exciting ideas.  
+
+# Together, we can build amazing things!  
+# Thank you for being a part of this journey! 
