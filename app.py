@@ -1,14 +1,22 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 from flask import Flask
+
+# Initialize the Flask application
 app = Flask(__name__)
 
+# Define a route for the root URL ('/')
 @app.route('/')
 def hello_world():
-    return 'TechVJ'
+    # Return a block of ASCII art text when the root URL is accessed
+    return """
+███╗░░░███╗██╗░██████╗░██╗░░░██╗███████╗██╗░░░░░  ░█████╗░██╗██╗░░██╗░█████╗░██████╗░░█████╗░
+████╗░████║██║██╔════╝░██║░░░██║██╔════╝██║░░░░░  ██╔══██╗╚█║██║░░██║██╔══██╗██╔══██╗██╔══██╗
+██╔████╔██║██║██║░░██╗░██║░░░██║█████╗░░██║░░░░░  ██║░░██║░╚╝███████║███████║██████╔╝███████║
+██║╚██╔╝██║██║██║░░╚██╗██║░░░██║██╔══╝░░██║░░░░░  ██║░░██║░░░██╔══██║██╔══██║██╔══██╗██╔══██║
+██║░╚═╝░██║██║╚██████╔╝╚██████╔╝███████╗███████╗  ╚█████╔╝░░░██║░░██║██║░░██║██║░░██║██║░░██║
+╚═╝░░░░░╚═╝╚═╝░╚═════╝░░╚═════╝░╚══════╝╚══════╝  ░╚════╝░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝"""
 
-
+# Run the application
 if __name__ == "__main__":
-    app.run()
+    # Set the host to '0.0.0.0' to make the server publicly available
+    # Set the port to 8080
+    app.run(host='0.0.0.0', port=8080)
