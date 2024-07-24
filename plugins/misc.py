@@ -18,6 +18,7 @@ import random
 from utils import *
 from pyrogram import Client, filters
 from plugins.generate import database 
+from plugins.forcesub import ForceSub
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton 
 
 async def handle_force_subscription(client, message):
