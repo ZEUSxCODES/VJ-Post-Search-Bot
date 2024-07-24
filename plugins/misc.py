@@ -23,13 +23,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Main buttons for the bot
 main_buttons = [[
-    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='https://t.me/FN_Finder_Bot?startgroup=true')
+    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='https://t.me/{username}?startgroup=true')
 ], [
     InlineKeyboardButton("ʜᴇʟᴘ", callback_data="misc_help"),
     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_about")
-], [
-    InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇ", url="https://t.me/vj_botz"),
-    InlineKeyboardButton("🔍 ɢʀᴏᴜᴘ", url="https://t.me/vj_bot_disscussion")
 ]]
 
 @Client.on_message(filters.command("start") & ~filters.channel)
@@ -120,14 +117,11 @@ async def misc(bot, update):
     if data == "home":
         username = (await bot.get_me()).username
         button = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{username}?startgroup=true')
-        ], [
-            InlineKeyboardButton("ʜᴇʟᴘ", callback_data="misc_help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_about")
-        ], [
-            InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇ", url="https://t.me/vj_botz"),
-            InlineKeyboardButton("🔍 ɢʀᴏᴜᴘ", url="https://t.me/vj_bot_disscussion")
-        ]]
+    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='https://t.me/{username}?startgroup=true')
+], [
+    InlineKeyboardButton("ʜᴇʟᴘ", callback_data="misc_help"),
+    InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_about")
+]]
         await update.message.edit(
             text=script.START.format(update.from_user.mention),
             disable_web_page_preview=True,
