@@ -15,10 +15,10 @@
 # Thank you for being a part of this journey! 
 
 class script(object):
-    START = """**ʜᴇʟʟᴏ {} 🤟**
+    START = """"**Hello {} 🤟**
    
-<b>ɪ ᴀᴍ ᴠᴊ ᴘᴏsᴛ sᴇᴀʀᴄʜ ʙᴏᴛ. ɪ ᴀᴍ ʙᴇsᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ sᴇᴀʀᴄʜ ʙᴏᴛ! 
-ɪ ᴡɪʟʟ ғɪʟᴛᴇʀ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴘᴏsᴛs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀɴᴅ sᴇɴᴅ ɪᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴡʜᴇɴ sᴏᴍᴇᴏɴᴇ sᴇᴀʀᴄʜ ɪᴛ.</b>"""
+I am **Find Post Bot**.I am best Channel Link Search Bot! 
+I Will filter your channel posts automatically and send it in your group chat when Someone search it."""
 
     HELP = """<b>💢 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ
 
